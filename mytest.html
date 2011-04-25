@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title> New Document </title>
+<link rel="stylesheet" type="text/css" href="http://testbed.joelg.co.uk/facebox/facebox.css" media="screen" >
+<script type="text/javascript" src="http://192.168.1.123/iparty/js/jquery.js"></script>  
+<script type="text/javascript"> var ibase_url = 'http://192.168.1.123/iparty/'; </script>
+<script type="text/javascript" src="http://testbed.joelg.co.uk/facebox/facebox.js"></script>  
+</head>
+
+<body>
+
+<a href="#info" rel="facebox">text</a>
+
+<div id="info" style="display:none">
+	This is a dynamic content
+	<button id="newC">Clic Me</button>
+	<script>
+		$('#newC').click(function(){
+			jQuery.facebox({ div: '#box' });
+		})
+	</script>
+</div>
+
+
+<div id="box" style="display:none">
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+	This is THE NEW content
+
+</div>
+
+
+<script>
+$(function(){
+	$('a[rel*=facebox]').facebox();
+})
+</script>
+
+</body>
+</html>
